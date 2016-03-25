@@ -1,0 +1,11 @@
+.DS_Store
+.buildpath
+.project
+.settings
+.classpath
+*.sublime-*
+.directory
+.RData
+.Rhistory
+getdata-projectfiles-UCI HAR Dataset.zip
+*.html
