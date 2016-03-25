@@ -16,16 +16,16 @@ If the file does not exist it will be downloaded.
 
 A second file, *samsung_data_summary.txt* will be written to the working directory once the source file has been processed.
 
-At least XXX Mb of disk space is needed to store these two files.
+At least 61Mb of disk space is needed to store these two files.
 
-The dplyr library must be installed.
+The dplyr library must be installed to run the code.
 
 
 ### Creating the dataset
 
 
 
-con <- unz("http://scholar.google.com/citations?user=HI-I6C0AAAAJ&hl=en")
+con <- unz("getdata-projectfiles-UCI HAR Dataset.zip", "UCI HAR Dataset/activity_labels.txt")
 htmlCode <- readLines(con)
 close(con)
 htmlCode
