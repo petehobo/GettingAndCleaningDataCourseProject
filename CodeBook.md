@@ -1,2 +1,89 @@
 # Getting And Cleaning Data - Course Project
 
+#### _Pete Holberton_
+
+## Code Book
+
+| Field                        | Description |
+| ---------------------------- | ----------- |
+| activityname                 | The activity the partipant was performing for this set of measurements.  One of WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING |
+| subject                      | Unique identifier for the participant |
+| tbodyaccmeanx                ||
+| tbodyaccmeany                ||
+| tbodyaccmeanz                ||
+| tbodyaccstdx                 ||
+| tbodyaccstdy                 ||
+| tbodyaccstdz                 ||
+| tgravityaccmeanx             ||
+| tgravityaccmeany             ||
+| tgravityaccmeanz             ||
+| tgravityaccstdx              ||
+| tgravityaccstdy              ||
+| tgravityaccstdz              ||
+| tbodyaccjerkmeanx            ||
+| tbodyaccjerkmeany            ||
+| tbodyaccjerkmeanz            ||
+| tbodyaccjerkstdx             ||
+| tbodyaccjerkstdy             ||
+| tbodyaccjerkstdz             ||
+| tbodygyromeanx               ||
+| tbodygyromeany               ||
+| tbodygyromeanz               ||
+| tbodygyrostdx                ||
+| tbodygyrostdy                ||
+| tbodygyrostdz                ||
+| tbodygyrojerkmeanx           ||
+| tbodygyrojerkmeany           ||
+| tbodygyrojerkmeanz           ||
+| tbodygyrojerkstdx            ||
+| tbodygyrojerkstdy            ||
+| tbodygyrojerkstdz            ||
+| tbodyaccmagmean              ||
+| tbodyaccmagstd               ||
+| tgravityaccmagmean           ||
+| tgravityaccmagstd            ||
+| tbodyaccjerkmagmean          ||
+| tbodyaccjerkmagstd           ||
+| tbodygyromagmean             ||
+| tbodygyromagstd              ||
+| tbodygyrojerkmagmean         ||
+| tbodygyrojerkmagstd          ||
+| fbodyaccmeanx                ||
+| fbodyaccmeany                ||
+| fbodyaccmeanz                ||
+| fbodyaccstdx                 ||
+| fbodyaccstdy                 ||
+| fbodyaccstdz                 ||
+| fbodyaccmeanfreqx            ||
+| fbodyaccmeanfreqy            ||
+| fbodyaccmeanfreqz            ||
+| fbodyaccjerkmeanx            ||
+| fbodyaccjerkmeany            ||
+| fbodyaccjerkmeanz            ||
+| fbodyaccjerkstdx             ||
+| fbodyaccjerkstdy             ||
+| fbodyaccjerkstdz             ||
+| fbodyaccjerkmeanfreqx        ||
+| fbodyaccjerkmeanfreqy        ||
+| fbodyaccjerkmeanfreqz        ||
+| fbodygyromeanx               ||
+| fbodygyromeany               ||
+| fbodygyromeanz               ||
+| fbodygyrostdx                ||
+| fbodygyrostdy                ||
+| fbodygyrostdz                ||
+| fbodygyromeanfreqx           ||
+| fbodygyromeanfreqy           ||
+| fbodygyromeanfreqz           ||
+| fbodyaccmagmean              ||
+| fbodyaccmagstd               ||
+| fbodyaccmagmeanfreq          ||
+| fbodybodyaccjerkmagmean      ||
+| fbodybodyaccjerkmagstd       ||
+| fbodybodyaccjerkmagmeanfreq  ||
+| fbodybodygyromagmean         ||
+| fbodybodygyromagstd          ||
+| fbodybodygyromagmeanfreq     ||
+| fbodybodygyrojerkmagmean     ||
+| fbodybodygyrojerkmagstd      ||
+| fbodybodygyrojerkmagmeanfreq ||
