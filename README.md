@@ -23,9 +23,17 @@ The dplyr library must be installed to run the code.
 
 ### Creating the dataset
 
+To create the output file, set R's working directory to a directory containing the *getdata-projectfiles-UCI HAR Dataset.zip*, eg
+
+```R
+setwd("e:/tmp")
+```
+
+If the file does not exist in the working directory, it will be downloaded.
+
+Run the [*run_analysis.R*](run_analysis.R) script.  This will create a file called *samsung_data_summary.txt* in the working directory.
 
 
-con <- unz("getdata-projectfiles-UCI HAR Dataset.zip", "UCI HAR Dataset/activity_labels.txt")
-htmlCode <- readLines(con)
-close(con)
-htmlCode
+### Code Book
+
+A code book describing each variable and its values can be found [here](CodeBook.md).
